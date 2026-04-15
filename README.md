@@ -10,3 +10,6 @@
 import os
 os.environ['HF_ENDPOINT'] = '​hf-mirror.com'
 ```
+
+## huggingface-cli
+网址：https://huggingface.co/docs/huggingface_hub/guides/cli
