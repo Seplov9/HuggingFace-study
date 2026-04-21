@@ -33,3 +33,11 @@ model.save_pretrained("./my-gpt2")
 
 print("GPT-2 全部参数已成功拉取并保存到本地。")
 ```
+
+当执行 from_pretrained("gpt2") 时，程序的查找逻辑是这样的：
+
+检查本地路径：看看当前目录下有没有叫 gpt2 的文件夹。
+
+检查系统缓存 (Cache)：去 Hugging Face 的默认缓存文件夹（通常在用户目录下的 ~/.cache/huggingface/hub）查找是否已经下载过该模型的 blob 文件。
+
+下载：如果前两步都找不到，才会连接网络从远程仓库拉取。
