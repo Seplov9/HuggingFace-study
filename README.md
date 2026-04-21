@@ -16,6 +16,8 @@ os.environ['HF_ENDPOINT'] = '​hf-mirror.com'
 
 ## huggingface-cli
 网址：https://huggingface.co/docs/huggingface_hub/guides/cli
+安装：`pip install -U "huggingface_hub"`
+下载：`hf download Qwen/Qwen3-VL-2B-Instruct`
 
 ## 拉取参数
 ```python
