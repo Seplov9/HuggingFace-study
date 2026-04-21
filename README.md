@@ -1,6 +1,6 @@
 # HuggingFace-study
 
-## HuggingFace镜像站：https://hf-mirror.com/
+## Huggingface镜像站：https://hf-mirror.com/
 
 ### Linux
 `export HF_ENDPOINT=https://hf-mirror.com`
