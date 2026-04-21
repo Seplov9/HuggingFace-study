@@ -5,6 +5,9 @@
 ### Linux
 `export HF_ENDPOINT=https://hf-mirror.com`
 
+### Windows
+`$env:HF_ENDPOINT = "https://hf-mirror.com"`
+
 ### python
 ```python
 import os
